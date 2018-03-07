@@ -4,6 +4,8 @@
 
 Word Scrambler game written in Laravel  
 
+## [DEMO](http://miftachh.xyz)  
+
 ## Requirements and Environment
 
 * PHP 7+
@@ -36,12 +38,8 @@ Word Scrambler game written in Laravel
 ### 3. Database stuff
  
     import scrambler.sql on root folder this in your local project 
-
-### 3. Demo 
-
-[DEMO](http://miftachh.xyz)  
-
-
+ 
+ 
 ## Contributors
 
 Miftach Hidayatullah  - miftarockavanka@gmail.com
