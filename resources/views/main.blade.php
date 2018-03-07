@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Word Scrumbler</title>
+  <title>Word Scrambler</title>
 
   <link href="{{ asset('style/main.css') }}" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
