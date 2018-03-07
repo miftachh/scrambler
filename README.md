@@ -37,6 +37,11 @@ Word Scrambler game written in Laravel
  
     import scrambler.sql on root folder this in your local project 
 
+### 3. Demo
+ 
+    [Demo](http://wwww.miftachh.xyz)
+
+
 ## Contributors
 
 Miftach Hidayatullah  - miftarockavanka@gmail.com
