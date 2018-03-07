@@ -1,0 +1,286 @@
+.embossTile {
+  box-shadow: inset 0 2px 13px 0px rgba(255, 255, 255, 0.6), inset 0 -9px 10px -5px rgba(0, 0, 0, 0.9), 0 5px 10px -5px black;
+}
+.noTouchy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@keyframes "wobble" {
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-moz-keyframes wobble {
+  0% {
+    -moz-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-webkit-keyframes "wobble" {
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-ms-keyframes "wobble" {
+  0% {
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-o-keyframes "wobble" {
+  0% {
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Helvetica, Verdana, Arial;
+  background: #c0c0c0;
+}
+body * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.embossTile {
+  box-shadow: inset 0 2px 13px 0px rgba(255, 255, 255, 0.6), inset 0 -9px 10px -5px rgba(0, 0, 0, 0.9), 0 5px 10px -5px black;
+}
+.noTouchy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@keyframes "wobble" {
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-moz-keyframes wobble {
+  0% {
+    -moz-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-webkit-keyframes "wobble" {
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-ms-keyframes "wobble" {
+  0% {
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+@-o-keyframes "wobble" {
+  0% {
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  100% {
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+}
+.scramble {
+  margin: 30px auto;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.scramble * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.scramble .scrambled-letter {
+  box-shadow: inset 0 2px 13px 0px rgba(255, 255, 255, 0.6), inset 0 -9px 10px -5px rgba(0, 0, 0, 0.9), 0 5px 10px -5px black;
+  display: inline-block;
+  margin: 0;
+  background: #5e5954;
+  padding: 12px;
+  color: #ffffff;
+  text-shadow: -1px -1px 3px #928c86;
+  cursor: move;
+  width: 74px;
+  height: 74px;
+  font-size: 32pt;
+  font-family: 'Bookman Old Style', serif;
+  border-radius: 14%;
+  vertical-align: middle;
+  z-index: 10;
+}
+.scramble .scrambled-letter.invisible {
+  opacity: 0;
+}
+.scramble .scrambled-letter.drag-clone {
+  cursor: move;
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+}
+.scramble .scrambled-letter.drag-clone.snap-to-place {
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.scramble .spacer {
+  display: inline-block;
+  width: 20px;
+  height: 92.5px;
+  vertical-align: middle;
+}
+.scramble.dragging .spacer {
+  -webkit-transition: width 500ms ease;
+  -moz-transition: width 500ms ease;
+  -o-transition: width 500ms ease;
+  -ms-transition: width 500ms ease;
+  transition: width 500ms ease;
+  width: 30px;
+}
+.scramble.dragging .spacer.hover {
+  width: 114px;
+}
+.scramble.dragging .spacer.hover:before {
+  content: "\25bc";
+  color: #928c86;
+  position: relative;
+  top: -12px;
+}
+.scramble.dragging .scrambled-letter {
+  -webkit-animation: wobble 300ms infinite;
+  -moz-animation: wobble 300ms infinite;
+  -ms-animation: wobble 300ms infinite;
+  -o-animation: wobble 300ms infinite;
+  animation: wobble 300ms infinite;
+}
+.scramble.dragging .drag-clone {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+.scramble.solved {
+  background: green;
+}
